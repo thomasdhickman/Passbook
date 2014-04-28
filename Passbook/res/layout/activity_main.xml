@@ -5,24 +5,13 @@
     android:gravity="center_horizontal"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/txtBanner"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:text="@string/enter_pin"
-        android:gravity="center"
-        android:textAppearance="?android:attr/textAppearanceSmall" />
-
     <EditText
         android:id="@+id/etPIN"
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_below="@+id/txtBanner"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="15dp"
         android:ems="10"
         android:hint="Enter PIN"
         android:inputType="numberPassword" >
@@ -47,5 +36,25 @@
         android:layout_below="@+id/etConfirm"
         android:layout_centerHorizontal="true"
         android:text="@string/confirm" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/passbook" />
+
+    <TextView
+        android:id="@+id/txtBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:gravity="center"
+        android:text="@string/enter_pin"
+        android:layout_marginTop="25dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
 
 </RelativeLayout>
