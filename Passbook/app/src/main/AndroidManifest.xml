@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thickman.passbook"
+    android:versionCode="7"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.NFC" />
+
+    <uses-feature
+        android:name="android.hardware.nfc"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.thickman.passbook.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.ItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.AddItemActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.AboutActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.ChangePinActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.ImportExportActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/xml" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.PasswordGeneratorActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.SecurityQuestionActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.thickman.passbook.RecoverPINActivity"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

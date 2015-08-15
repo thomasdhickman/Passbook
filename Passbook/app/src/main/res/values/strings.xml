@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Passbook</string>
+    
+    <string name="about_passbook">About Passbook</string>
+    
+    <string name="account_name_or_key">Account Name or Key</string>
+    <string name="username_or_value">Username or Value</string>
+    <string name="password_or_value">Password or Value (Optional)</string>
+    <string name="required_field">Required field</string>
+    
+    <string name="your_pin_has_been_changed">Your PIN has been changed.</string>
+    <string name="pins_do_not_match">PINs do not match.</string>
+    <string name="incorrect_pin">Incorrect PIN.</string>
+    <string name="new_pin_four_digits">New PIN must be at least four digits.</string>
+    
+    <string name="database_error">Error - Item not updated.</string>
+    <string name="database_update_success">Item updated.</string>
+    <string name="database_item_added">Item added.</string>
+    <string name="database_add_error">There was an error adding the item.</string>
+    <string name="database_item_deleted">Item deleted.</string>
+    <string name="database_list_cleared">Item list cleared.</string>
+    
+    <string name="delete_item_ask">Delete item?</string>
+    <string name="log_out_ask">Do you want to log out?</string>
+    <string name="log_out">Log Out</string>
+    <string name="log_out_confirm">You are now logged out.</string>
+    
+    <string name="thanks_for_installing">Please set your PIN.</string>
+    <string name="locked_out">App has been locked out. Please reinstall to reset.</string>
+    <string name="two_attempts_remaining">Two attempts remaining.</string>
+    <string name="one_attempt_remaining">One attempt remaining. Your private data will be deleted if your login fails.</string>
+    <string name="private_data_deleted">All private data has been deleted due to too many failed login attempts.</string>
+    <string name="reinstall">App has been locked out. Please reinstall to reset.</string>
+    
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="enter_pin">Please enter your PIN.</string>
+    <string name="confirm">Confirm</string>
+    <string name="action_add">Add</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="action_about">About</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="about">Thanks for installing Passbook.\n\n
+        This is a super simple data storage app to keep your passwords and private information safe from other people and easy for you to access.\n\n
+        This version includes a new PIN recovery tool where you can set a security question to recover your PIN. You can also change your PIN later once you\'ve set it.\n\n
+        Brute force security is no longer included as it wasn\'t useful for many people. This means that your data won\'t be deleted after any amount of failed attempts to log in.\n\n
+        When adding an entry, you\'ll notice the fields are labeled Key, Value, and Value (Optional). Use the Key field to specify what exactly you\'re trying to save. If it\'s your Facebook password, type Facebook. The two value fields can be used for username and password, respectively.\n\n
+        The second value field is optional if you just want to store two lines of information. This is helpful if you also want to store something other than login credentials.\n\n
+        To add an entry, hit the plus button.\n\n
+        Tap an entry you\'d like to edit to modify its data.\n\n
+        You can press and hold an entry to copy the username or password, or delete the entry.\n\n
+        If you like Passbook, please rate it on the Play Store! Also, feel free to make suggestions for changes and new features by tapping the button below. I really do listen to your requests!\n\n</string>
+    <string name="action_change_pin">Change PIN</string>
+    <string name="change_pin">Change PIN</string>
+    <string name="import_export">Import/Export</string>
+    <string name="import_btn">Import</string>
+    <string name="export">Export</string>
+    <string name="import_export_subtitle">- Importing and Exporting your passwords with XML are advanced features and will require the use of a third party file explorer. I am still in the process of finding a way to make this easier to use, but I wanted to release it anyway as a courtesy.\n\n
+        								  - Select Export XML to encrypt and export your passwords to an XML file which you can transfer to another device. You will need to use a third party file explorer to navigate to this file and transfer it by the means of your choice.\n\n
+        								  - Once you\'ve transferred the export.xml file to your new device, make sure it is in the directory listed in the Import/Export menu in the app, and tap Import.\n\n
+        								  - Select Share Plain Text for other sharing options, but please be aware that your passwords will not be encrypted if you select this option.</string>
+    <string name="make_directory">Make Passbook Directory</string>
+    <string name="password_generator">Password Generator</string>
+    <string name="generate">Generate</string>
+    <string name="include_capital_letters">Include Capital Letters</string>
+    <string name="include_special_characters">Include Special Characters</string>
+    <string name="add_item">Add Item</string>
+    <string name="old_pin">Old PIN</string>
+    <string name="new_pin">New PIN</string>
+    <string name="confirm_new_pin">Confirm New PIN</string>
+    <string name="login">Enter PIN</string>
+    <string name="confirm_pin">Confirm PIN</string>
+    <string name="copy_to_clipboard">Copy to Clipboard</string>
+    <string name="include_numbers">Include Numbers</string>
+    <string name="security_question">Add Security Question</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+    <string name="security_disclaimer">Please enter a personal question and answer with which you can recover your PIN should you forget it. Your answer is case sensitive.</string>
+    <string name="recover_password">Recover PIN</string>
+    <string name="action_change_security_question">Change Security Question</string>
+	<string name="copy_username">Copy username</string>
+	<string name="copy_password">Copy password</string>
+	<string name="delete_item_statement">Delete item</string>
+	<string name="options">Item Options</string>
+	<string name="incorrect_answer">Incorrect answer</string>
+	<string name="recover_text">Answer your security question correctly to recover your PIN. The answer you provide is case sensitive.</string>
+	<string name="import_xml">Import XML (Beta)</string>
+	<string name="export_xml">Export XML (Beta)</string>
+	<string name="share_plain_text">Share Plain Text (Unencrypted)</string>
+</resources>

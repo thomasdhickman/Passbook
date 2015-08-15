@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <array name="longpressoptions">
+        <item>@string/copy_username</item>
+        <item>@string/copy_password</item>
+        <item>@string/delete_item_statement</item>
+        <item>@string/cancel</item>
+    </array>
+</resources>

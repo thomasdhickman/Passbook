@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="always"
+        android:visible="false"
+        android:title="@string/action_add"/>
+    <item
+        android:id="@+id/action_change_pin"
+        android:showAsAction="never"
+        android:title="@string/action_change_pin"/>
+    <item
+        android:id="@+id/action_change_security_question"
+        android:showAsAction="never"
+        android:title="@string/action_change_security_question"/>
+    <item
+        android:id="@+id/action_import_export"
+        android:showAsAction="never"
+        android:title="@string/import_export"/>
+    <item
+        android:id="@+id/action_password_generator"
+        android:showAsAction="never"
+        android:title="@string/password_generator"/>
+    <item
+        android:id="@+id/action_about"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    <item
+        android:id="@+id/action_log_out"
+        android:showAsAction="never"
+        android:title="@string/log_out"/>
+
+</menu>
